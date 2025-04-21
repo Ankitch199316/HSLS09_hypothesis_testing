@@ -58,7 +58,8 @@ import statsmodels.api as sm
 - Students in the **highest SES quintile** had significantly stronger math identity than the lowest quintile.
 - Differences were statistically significant across multiple SES levels.
 
-<img width="1226" alt="Screenshot 2025-04-21 at 4 35 33 PM" src="https://github.com/user-attachments/assets/b3197443-f9fc-4462-843d-468dada83537" />
+<img width="1228" alt="Screenshot 2025-04-21 at 4 48 03 PM" src="https://github.com/user-attachments/assets/30ed5550-e044-4337-80a4-bb48802d3b91" />
+
 
 ---
 
@@ -80,7 +81,7 @@ import statsmodels.api as sm
 - Students with parents holding **Ph.D./MD/Law degrees** had the highest average scores.
 - Clear gaps between lower and higher education categories.
 
-<img width="1217" alt="Screenshot 2025-04-21 at 4 36 02 PM" src="https://github.com/user-attachments/assets/0029f225-7404-4fad-b45c-389d6fbc5042" />
+<img width="1220" alt="Screenshot 2025-04-21 at 4 47 20 PM" src="https://github.com/user-attachments/assets/fd39d651-2684-42ba-beca-7dbd7b87760a" />
 
 
 ---
@@ -103,7 +104,7 @@ import statsmodels.api as sm
 - Math identity improved with rising income.
 - The **$235k+ group** showed significantly higher scores than lower-income peers.
 
-<img width="1220" alt="Screenshot 2025-04-21 at 4 36 34 PM" src="https://github.com/user-attachments/assets/04db3309-4c15-44bc-839d-d3a364698b50" />
+<img width="1226" alt="Screenshot 2025-04-21 at 4 46 48 PM" src="https://github.com/user-attachments/assets/d11f8321-319b-4d68-b752-a2aaaba774fc" />
 
 
 ---
@@ -131,7 +132,7 @@ model.summary()
 - Some advanced degrees showed weak or negative coefficients
 - Suggests possible multicollinearity or cultural factors
 
-<img width="1175" alt="Screenshot 2025-04-21 at 4 37 05 PM" src="https://github.com/user-attachments/assets/2a4ab60f-af58-4b29-a1f6-0e9f81e7c028" />
+<img width="1066" alt="Screenshot 2025-04-21 at 4 46 23 PM" src="https://github.com/user-attachments/assets/5106fed0-b97d-420f-84b0-026ac6f96637" />
 
 
 ---
@@ -165,4 +166,5 @@ This project not only highlights my ability to work with large survey datasets, 
 - **Clear insight communication** for non-technical stakeholders
 
 **Thanks for reading!**
+
 
