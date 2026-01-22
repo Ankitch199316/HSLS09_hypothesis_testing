@@ -1,19 +1,22 @@
 # 🧠 Investigating Socioeconomic Influence on Math Identity: HSLS:09 Data Analysis
 
-## 📌 Project Motivation
-As part of my data analytics portfolio, this project was designed to demonstrate my ability to work with real-world educational survey data, perform statistical analysis, generate insights, and communicate findings through both code and visualization tools. 
+## 📌 Project Overview
 
-In this case, I analyzed the **High School Longitudinal Study of 2009 (HSLS:09)** to explore the impact of **socioeconomic status (SES)** on students’ **math identity** — a key psychological metric linked to academic and career trajectories.
+This project analyzes large-scale longitudinal education survey data to examine how **socioeconomic factors relate to student academic identity**, with a focus on math identity as an early indicator of educational outcomes.
 
-The aim was to:
-- Showcase **statistical rigor** (ANOVA, regression, post-hoc analysis)
-- Work with **messy real-world data** and detailed codebooks
-- Demonstrate ability to tell a **clear story using Tableau** dashboards
-- Deliver practical, **actionable insights for education policy**
+Using the High School Longitudinal Study of 2009 (HSLS:09), the analysis applies statistical testing and regression techniques to identify meaningful differences across socioeconomic groups and to demonstrate how data-driven insights can inform targeted interventions and resource prioritization.
+
 
 ---
 
 ## 🗃️ Dataset Overview
+
+The analysis uses data from the High School Longitudinal Study of 2009 (HSLS:09), a nationally representative survey administered by :contentReference[oaicite:0]{index=0}.
+
+The dataset captures a broad range of student-level information, including socioeconomic indicators, academic outcomes, family background, and attitudinal measures. Given the scale and complexity of the data, careful variable selection and validation were required to ensure accurate interpretation.
+
+Key variables were mapped using official documentation to translate coded fields into meaningful socioeconomic and academic indicators.
+
 - **Source:** [NCES - HSLS:09 Public Use Dataset](https://nces.ed.gov/surveys/hsls09/)
 - **Size:** ~600 MB across multiple files
 - **Variables:** 9000+ columns covering academic performance, SES, identity, family background, future plans, and more
@@ -34,8 +37,14 @@ Before doing any analysis, I spent time reading the **extensive codebook** to ma
 
 ---
 
-## 🎯 Hypotheses & Analysis
-To frame the investigation, I focused on **four hypotheses** exploring how different SES indicators relate to students’ **Math Identity Score** (`X1MTHID`).
+## 🎯 Analytical Questions
+
+The analysis focuses on how different socioeconomic indicators relate to students’ math identity, an early signal linked to academic confidence and long-term educational outcomes.
+
+Four analytical questions were examined to understand:
+- Whether math identity differs meaningfully across socioeconomic groups
+- How parental education and income relate to academic self-perception
+- Whether multiple SES factors jointly explain variation in math identity
 
 ---
 
